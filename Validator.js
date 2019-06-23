@@ -1,4 +1,4 @@
-class Validator {
+export default class Validator {
     static validate(element, value, compareTo = false) {
         let field = element
         let data = value
